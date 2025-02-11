@@ -1,13 +1,24 @@
+:root {
+    --primary-color: #0ea4d1;
+    --secondary-color: #7cddfd;
+    --success-color: #d9b68b;
+    --text--color: #07344a;
+    --warning-color: ##351d15;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
 
 
 
 
+.Productos{
+    background-color: var(--primary-color);
+    font-family: var(--font-family-monospace);
+    padding: 2.5rem; 
+}
 
-
-
-
-.custom-card {
-    width: 18rem; /* spacie card */
-    margin:  2.5rem ; /* margin cards */
-    gap:1.5rem;
+.card-body , p {
+    background: var(--secondary-color);
+    color: var(--text-color);
+    font-family: var(--font-family-sans-serif);
 }
