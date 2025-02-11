@@ -22,3 +22,16 @@
     color: var(--text-color);
     font-family: var(--font-family-sans-serif);
 }
+
+.carousel-item img {
+    height: 500px; 
+    object-fit: cover;
+}
+
+.carousel-indicators li::after {
+    display: none !important;
+}
+
+.carousel-indicators {
+    list-style: none;
+}
