@@ -35,3 +35,9 @@
 .carousel-indicators {
     list-style: none;
 }
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        max-height: 200px;
+    }
+}
