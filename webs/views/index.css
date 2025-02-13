@@ -41,3 +41,24 @@
         max-height: 200px;
     }
 }
+
+
+.footer {
+            background-color: #343a40;
+            color: white;
+            padding: 1rem 0;
+              }
+              .footer p{
+                background-color: #343a40;
+                color: white;
+                  }
+.social-icons a {
+            color: white;
+            font-size: 32px;
+            margin: 0 10px;
+            transition: 0.3s;
+            padding: 20px;
+              }
+.social-icons a:hover {
+            color: #17a2b8;
+              }
