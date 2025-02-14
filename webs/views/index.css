@@ -62,3 +62,24 @@
 .social-icons a:hover {
             color: #17a2b8;
               }
+
+.navbar {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem 0;
+              }
+              .navbar a{
+               
+                color: white;
+                  }
+
+.navbar-nav .nav-link.active {
+                    font-weight: bold; 
+                    color: #007bff !important; 
+                }
+
+                  
+        .navbar-brand img {
+            height: 30px; 
+            margin-right: 10px; 
+        }
