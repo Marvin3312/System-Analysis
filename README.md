@@ -1,23 +1,21 @@
-# System-Analysis
+Preparacion de Vhost
 
-<h2>
-    <strong>Adjust and crop the image to improve quality</strong>
-</h2>
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs"
+    ServerName localhost
+</VirtualHost>
 
- <p>
- .carousel-item img {
-    height: 500px; 
-    object-fit: cover;
- }
-</p>
+<VirtualHost *:80>
+    DocumentRoot "C:/xampp/htdocs/System-Analysis"
+    ServerName Theparfum.com
+    <Directory "C:/xampp/htdocs/System-Analysis">
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
 
-<h2>
-    <strong>I place it to eliminate numbers and style below</strong>
-</h2>
 
- <p>
- .carousel-item img {
-    height: 500px; 
-    object-fit: cover;
- }
-</p>
+host driver
+
+127.0.0.1 Theparfum.com
