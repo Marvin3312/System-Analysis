@@ -12,7 +12,7 @@ ini_set('error_log', dirname(__FILE__) . '/error_log.txt');
 Rrquire Files
 =======================*/
 
-require_once 'web/controllers/template.controller.php';
+require_once 'webs/controllers/template.controller.php';
 
 
 /*=======================

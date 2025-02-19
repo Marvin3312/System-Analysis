@@ -1,0 +1,7 @@
+[19-Feb-2025 06:55:35 Europe/Berlin] PHP Warning:  require_once(web/controllers/template.controller.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\System-Analysis\index.php on line 15
+[19-Feb-2025 06:55:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'web/controllers/template.controller.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\System-Analysis\index.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\System-Analysis\index.php on line 15
+[19-Feb-2025 06:56:04 Europe/Berlin] PHP Warning:  include(../views/template.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\System-Analysis\webs\controllers\template.controller.php on line 7
+[19-Feb-2025 06:56:04 Europe/Berlin] PHP Warning:  include(): Failed opening '../views/template.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\System-Analysis\webs\controllers\template.controller.php on line 7

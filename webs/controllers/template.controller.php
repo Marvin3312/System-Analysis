@@ -4,7 +4,7 @@ class TemplateController{
 
     //main function template
     public function index(){
-        include '../views/template.php';
+        include 'webs/views/template.php';
     }
 
     //main function route url https://mipage.com/
