@@ -20,7 +20,7 @@ $path = TemplateController::path();
 <body>
     <div class="wrapper">
         <?php 
-        include 'modules/navbar.php';
+        include 'webs/views/modules/navbar.php';
         include 'modules/hero.php';
         include 'pages/main.php';
         include '../views/pages/main/template.php';
