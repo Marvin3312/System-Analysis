@@ -13,6 +13,7 @@ $path = TemplateController::path();
     <title>The Parfum</title> <!-- title from database -->
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="webs/views/assets/css/index.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="<?php echo $path ?> webs/views/assets/css/index.css" rel="stylesheet"/>
 
@@ -21,7 +22,10 @@ $path = TemplateController::path();
     <div class="wrapper">
         <?php 
         include 'webs/views/modules/navbar.php';
-     
+
+        
+        include 'webs/views/pages/main.php';
+        
         ?>
 
     </div>
