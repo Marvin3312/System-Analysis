@@ -26,6 +26,7 @@ $path = TemplateController::path();
         
         include 'webs/views/pages/main.php';
         
+        include 'webs/views/modules/footer.php';
         ?>
 
     </div>

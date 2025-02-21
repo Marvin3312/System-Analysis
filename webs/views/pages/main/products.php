@@ -4,7 +4,7 @@
                     <!-- Tarjeta 1 -->
                     <div class="col-12 col-sm-6 col-md-4">
                         <div class="card text-dark shadow-sm">
-                                <img src="../webs/views/assets/products/assad.jpeg" width="75%" class="card-img-top" alt="...">
+                                <img src="webs/views/assets/products/assad.jpeg" width="75%" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h6 class="card-title">Assad</h6>
                                 <p class="card-text" >The best darck</p>
@@ -15,7 +15,7 @@
                     <!-- Tarjeta 2 -->
                     <div class="col-12 col-sm-6 col-md-4">
                         <div class="card text-dark shadow-sm">
-                            <img src="../webs/views/assets/products/khamrah.jpg" width="75%" class="card-img-top" alt="...">
+                            <img src="webs/views/assets/products/khamrah.jpg" width="75%" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h6 class="card-title">khamrah</h6>
                                 <p class="card-text">Honey</p>
@@ -26,7 +26,7 @@
                     <!-- Tarjeta 3 -->
                     <div class="col-12 col-sm-6 col-md-4">
                         <div class="card text-dark shadow-sm">
-                            <img src="../webs/views/assets/products/lataffa-oud-for-glory.jpg" width="75%" class="card-img-top" alt="...">
+                            <img src="webs/views/assets/products/lataffa-oud-for-glory.jpg" width="75%" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h6 class="card-title" >Oud</h6>
                                 <p class="card-text" >Sugar</p>
@@ -38,13 +38,13 @@
                     <!-- Tarjeta 4 -->
                     <div class="col-12 col-sm-6 col-md-4">
                         <div class="card text-dark shadow-sm">
-                            <img src="../webs/views/assets/products/perfume-nebras-by-lattafa.jpg" width="75%" class="card-img-top" alt="...">
+                            <img src="webs/views/assets/products/perfume-nebras-by-lattafa.jpg" width="75%" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h6 class="card-title" >Parfume</h6>
-                                <p class="card-text"></p>
+                                <p class="card-text">wood</p>
                                 <a href="#" class="btn btn-dark btn-sm">Buy</a>
                             </div>
-                        </div>
+                        </div>  
                     </div>
                 </div>
             </div>
