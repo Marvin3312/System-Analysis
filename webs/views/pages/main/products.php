@@ -1,4 +1,4 @@
-<section class="Productos">
+<section class="Productos" id="Productos">
             <div class="container mt-5">
                 <div class="row g-2"> <!-- g-4 agrega espacio entre columnas -->
                     <!-- Tarjeta 1 -->

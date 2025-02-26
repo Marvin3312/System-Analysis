@@ -18,7 +18,7 @@ $path = TemplateController::path();
     <link href="<?php echo $path ?> webs/views/assets/css/index.css" rel="stylesheet"/>
 
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="70" tabindex="0">
     <div class="wrapper">
         <?php 
         include 'webs/views/modules/navbar.php';
