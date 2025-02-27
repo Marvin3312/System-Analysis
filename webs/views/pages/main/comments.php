@@ -94,6 +94,7 @@
     </style>
 </head>
 <body>
+<section id="comments">
     <div class="comentarios-container">
         <h2>Comentarios</h2>
         <form id="comentario-form">
@@ -120,5 +121,6 @@
             }
         });
     </script>
+</section>
 </body>
 </html>
